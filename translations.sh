@@ -21,7 +21,6 @@ URL="https://platform.api.onesky.io/1/projects/"$PROJECT_ID"/translations/multil
 
 content=$(curl -H "Host: platform.api.onesky.io" $URL)
 
-cd ../../
 save_path="`pwd`/$SAVE_FILE_PATH"
 
 echo $(node -pe 'JSON.stringify(JSON.parse(process.argv[1])["id"], null, 4)' "$content") | json > $save_path"/id.json"
