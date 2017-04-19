@@ -5,7 +5,7 @@ export API_KEY=$1
        SOUCE_FILE_NAME=$4
        SAVE_FILE_PATH=$5
 
-JSON_TOOL_VERSION=$(npm list --depth 1 --global jsontool)
+JSON_TOOL_VERSION=$(npm list --depth 1 --global json)
 if [[ "$JSON_TOOL_VERSION" == *"empty"* ]]; then
      echo "Install json parser"
      npm i -g json
