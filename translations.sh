@@ -7,8 +7,8 @@ export API_KEY=$1
 
 JSON_TOOL_VERSION=$(npm list --depth 1 --global jsontool)
 if [[ "$JSON_TOOL_VERSION" == *"empty"* ]]; then
-     echo "Install jsontool"
-     npm i -g jsontool
+     echo "Install json parser"
+     npm i -g json
 fi
 
 CURRENT_SECOND=$(date +%s)
