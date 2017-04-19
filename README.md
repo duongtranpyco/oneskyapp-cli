@@ -10,8 +10,13 @@ The `json` library above will be installed automatically. If you get error becau
 
 ## Configuration
 
-Connecting to `oneskyapp` api, you need `api_key` and `secret_key`, get it from 
+Connecting to `oneskyapp` api, you need 
+
+1. `api_key` and `secret_key`
 > Open project setting > API Keys & Usage
+
+2. Source file name that you want to get
+> Project dashboard > File > File name
 
 ## How to use
 
