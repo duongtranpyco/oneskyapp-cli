@@ -32,5 +32,5 @@ Get project group id
 
 Get translation jsons
 ```javascript
- 	./translations.sh API_KEY SECRET_KEY PROJECT_ID path_to_your_folder
+ 	./translations.sh API_KEY SECRET_KEY PROJECT_ID SOURCE_FILE_NAME path_to_your_folder
  ```
